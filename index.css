@@ -68,7 +68,7 @@ wire2 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    max-width: 1242px;
+    max-width: 800px;
     overflow: auto;
 }
 
@@ -96,7 +96,7 @@ wire2 {
     height: 100%;
     padding: 45px 0px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto ;
     justify-content: center;
     gap: 27px;
 }
