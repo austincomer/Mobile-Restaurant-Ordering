@@ -220,7 +220,7 @@ wire2 {
 
 .cart-item-img {
     width: 125px;
-    height: fit-content;
+    height: auto;
 }
 
 .remove-item {
