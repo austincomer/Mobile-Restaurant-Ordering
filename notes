@@ -1,0 +1,42 @@
+
+
+<!-- Menu Items Boilerplate -->
+
+<div class="menu-item-card wire">
+
+    <div class="menu-item-card-img-container wire">
+        <img src="images/merry-prankster.jpeg" class="menu-item-img">
+    </div>
+
+    <div class="menu-card-body wire">
+        <h3 class="food-name wire">MERRY PRANKSTER</h3>
+
+        <div class="menu-card-body-price wire">
+            <h3 class="food-price wire">$14</h3>
+            <span class="desc-icon">
+                <i class="fa-solid fa-circle-info"></i>
+            </span>
+        </div>
+
+        <button class="add-to-cart-btn">Add to cart</button>
+    </div>
+
+</div>
+
+<!-- Cart Items Boilerplate -->
+
+<div class="cart-items-card">
+    <div class="cart-item-img-container">
+        <img src="images/pacific-rim.png" class="cart-item-img">
+    </div>
+
+    <div class="cart-item-info">
+        <h3>MERRY PRANKSTER</h3>
+        <button class="remove-item">Remove item</button>
+    </div>
+
+    <div class="cart-item-price">
+        <h3>$14</h3>
+    </div>
+</div>
+

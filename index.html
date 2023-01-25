@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;800&display=swap" rel="stylesheet"> 
+
+        <!-- Font Awesome CDN -->
+        <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+
+    </head>
+
+
+
+
+<body>
+
+    <div class="container" id="container">
+
+        <div class="header">
+                <h1>MELLOW MUSHROOM</h1>
+        </div>
+
+        <div class="menu-container">
+
+            <div class="menu-items" id="menu-items">
+            </div>
+
+        </div>
+
+        <div class="checkout" id="checkout">
+
+            <div class="checkout-container">
+                
+                <div class="checkout-header">
+                    <h2 class="order-header">YOUR ORDER</h2>
+                    <span class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </span>
+                </div>
+
+                <div class="checkout-items" id="checkout-items">
+                </div>
+
+                <div class="checkout-footer">
+
+                    <div class="totals">
+                        <h3>Subtotal: </h3>
+                        <h3 id="subtotal">$0</h3>
+                    </div>
+
+                    <div class="totals">
+                        <h3>18% Tip: </h3>
+                        <h3 id="tip">$0</h3>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="totals">
+                        <h3>Total: </h3>
+                        <h3 id="total">$0</h3>
+                    </div>
+
+                    <div>
+                        <button class="checkout-btn" id="checkout-btn">Checkout</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="payment-popup" id="payment-popup">
+
+        <div id="payment-enter">
+            <span class="x-icon">
+                <i class="fa-solid fa-x" id="close-payment-popup"></i>
+            </span>
+
+            <h2>Enter your credit card</h2>
+
+            <form id="payment-info">
+
+                <label for="name"></label>
+                <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                placeholder="Full Name"
+                required>
+                
+                <label for="credit-card"></label>
+                <input 
+                type="text" 
+                id="credit-card" 
+                name="credit-card" 
+                placeholder="Card Number"
+                required>
+                
+                <label for="cvv"></label>
+                <input 
+                type="text" 
+                id="cvv" 
+                name="cvv" 
+                placeholder="CVV"
+                required>
+
+                <label for="expiration-date"></label>
+                <input 
+                type="date" 
+                id="expiration-date" 
+                name="expiration-date" 
+                placeholder="MM/YY"
+                required>
+
+            </form>
+
+            <button type="submit" form="payment-info" class="checkout-btn" id="pay-now-btn">Pay now</button>
+
+        </div>
+
+        <div id="payment-successful">
+            <span class="x-icon">
+                <i class="fa-solid fa-x" id="close-payment-popup"></i>
+            </span>
+            <h2>Your Payment was successful!</h2>
+        </div>
+
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
